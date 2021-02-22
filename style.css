@@ -132,3 +132,43 @@ ul li ul li {
   width: 100%;
 }
 
+.nav3{
+    display:flex;
+flex-direction: row;
+background-color:whitesmoke;
+color: grey;
+justify-content: space-between;
+height: 50px;
+padding-top: 20px;
+
+}
+
+.nav3 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style-type: none;
+    color: black;
+
+
+}
+.nav3 li{
+    padding-right: 7px;
+}
+
+.latest a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+.nav4{
+
+    padding-top: 10px;
+    background-color: yellow;
+    height: 35px;
+}
+.nav4 a{
+    text-decoration: none;
+    column-count: black;
+}
+
