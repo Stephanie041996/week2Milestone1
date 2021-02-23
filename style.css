@@ -520,10 +520,8 @@ li a img {
     padding-left: 20px;
     border-right-style: none;
   }
-  .hide {
-    display: none;
-  }
-  .title p {
+
+ .title p {
     font-size: 15px;
   }
   .link a {
