@@ -256,7 +256,8 @@ cite{
     color: white;
 
 }
-    
+.checkbtn{display: none
+;}
 
 /* For mobile phones: */
 @media only screen and (max-width: 768px){
@@ -322,10 +323,11 @@ width: 100%;
 .view{
     border-right-style: none;
 }
-  .topnav a.icon {
-    float: right;
+.checkbtn{
     display: block;
+    float:right;
   }
+    
 
 
 }
