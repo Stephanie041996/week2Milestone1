@@ -209,9 +209,8 @@ ul li ul li {
   background:
     /* top, transparent red, faked with gradient */ linear-gradient(
       rgba(34, 23, 23, 0.45),
-      rgba(34, 23, 23, 0.45)
-    ),
-     url(./img/highlights-article-2.webp);
+      rgba(34, 23, 23, 0.45),
+    ) url(./img/highlights-article-2.webp);
   background-size: cover;
   margin: 5px;
   height: 180px;
