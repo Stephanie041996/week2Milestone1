@@ -50,6 +50,12 @@ p.title {
   font-size: 24px;
 }
 
+ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0 6px;
+}
+
 .p-title a {
   color: white;
   font-size: 14px;
@@ -60,6 +66,13 @@ p.title {
   border-right: 1px solid white;
   margin: 0 auto;
   padding-top: 15px;
+}
+
+.funding-nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: red;
+  font-size: 15px;
 }
 
 .view a {
@@ -87,6 +100,14 @@ p.title {
   font-size: 14px;
 }
 
+.nav3 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  color: black;
+}
+
 div.dropdown ul {
   display: flex;
   padding: 10px 3px;
@@ -95,12 +116,6 @@ div.dropdown ul {
 ul.about {
   display: flex;
   padding: 10px 3px;
-}
-
-ul li a {
-  color: white;
-  text-decoration: none;
-  padding: 0 6px;
 }
 
 li {
@@ -143,13 +158,6 @@ ul li ul li {
   padding-top: 20px;
 }
 
-.nav3 ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  list-style-type: none;
-  color: black;
-}
 .nav3 li {
   padding-right: 7px;
 }
@@ -285,13 +293,6 @@ cite {
   color: red;
   font-size: 24px;
   font-weight: bold;
-}
-
-.funding-nav ul {
-  display: flex;
-  justify-content: space-evenly;
-  color: red;
-  font-size: 15px;
 }
 
 .funding-nav ul .border {
