@@ -180,6 +180,7 @@ ul li ul:hover {
 }
 
 /* First section with row and two columns*/
+
 .img-section {
   display: flex;
   flex-direction: row;
