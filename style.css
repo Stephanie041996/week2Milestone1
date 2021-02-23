@@ -68,6 +68,16 @@ ul li a {
   padding-top: 15px;
 }
 
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
 .funding-nav ul {
   display: flex;
   justify-content: space-evenly;
@@ -126,16 +136,6 @@ li:hover {
   cursor: pointer;
 }
 
-ul li ul {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
-  left: 0;
-  display: none;
-}
-
 ul li:hover > ul,
 ul li ul:hover {
   visibility: visible;
@@ -178,13 +178,29 @@ ul li ul li {
   text-decoration: none;
   color: black;
 }
-/* First section with row and two columns*/
+
+ /* First section with row and two columns*/
 .img-section {
   display: flex;
   flex-direction: row;
   margin: 5px;
 }
 
+.big a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .small a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .small2 a {
+    text-decoration: none;
+    color: white;
+  }
+  
 .img-section p h1 a {
   color: white;
 }
@@ -212,13 +228,10 @@ ul li ul li {
 }
 
 .small {
-  background: 
-    /* top, transparent red, faked with gradient */ linear-gradient(
+  background: linear-gradient(
       rgba(34, 23, 23, 0.45),
       rgba(34, 23, 23, 0.45)
-    ),
-    /* bottom, image */ url(./img/highlights-article-2.webp);
-
+    ),url(./img/highlights-article-2.webp);
   background-size: cover;
   margin: 5px;
   height: 180px;
@@ -246,21 +259,6 @@ ul li ul li {
   font-weight: 800;
   padding-top: 50px;
   padding-left: 2px;
-}
-
-.big a {
-  text-decoration: none;
-  color: white;
-}
-
-.small a {
-  text-decoration: none;
-  color: white;
-}
-
-.small2 a {
-  text-decoration: none;
-  color: white;
 }
 
 .date {
