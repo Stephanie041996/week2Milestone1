@@ -132,6 +132,11 @@ li {
   display: block;
 }
 
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
 li:hover {
   cursor: pointer;
 }
@@ -141,11 +146,6 @@ ul li ul:hover {
   visibility: visible;
   opacity: 1;
   display: block;
-}
-
-ul li ul li {
-  clear: both;
-  width: 100%;
 }
 
 .nav3 {
@@ -201,6 +201,35 @@ ul li ul li {
   color: white;
 }
 
+.icon p a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(22, 21, 21);
+}
+
+.funding-card-box3 p a {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(22, 21, 21);
+}
+
+.social-icons li a {
+  display: block;
+  margin-right: 8px;
+  margin-bottom: 24px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.list-items li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+}
+
 .img-section p h1 a {
   color: white;
 }
@@ -221,6 +250,15 @@ ul li ul li {
   padding: 5px;
   padding-bottom: 20px;
   align-content: flex-end;
+}
+
+a h4 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: red;
+  line-height: 2.5rem;
 }
 
 .big h4 {
@@ -247,7 +285,6 @@ ul li ul li {
   font-size: 50px;
   font-weight: 800;
   text-decoration: none;
-
   padding-left: 3px;
 }
 
@@ -319,15 +356,6 @@ a.card-link {
   text-decoration: none;
 }
 
-a h4 {
-  font-size: 18px;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  background-color: red;
-  line-height: 2.5rem;
-}
-
 div.money {
   background-color: rgb(254, 235, 231);
   text-align: center;
@@ -359,14 +387,12 @@ a h5 {
   margin-left: 1rem;
 }
 
-.icon img {
-  margin-right: 1rem;
+li a img {
+  margin: 7px 3px;
 }
 
-.icon p a {
-  text-decoration: none;
-  font-size: 14px;
-  color: rgb(22, 21, 21);
+.icon img {
+  margin-right: 1rem;
 }
 
 .img-icon {
@@ -383,12 +409,6 @@ a h5 {
 
 .funding-card-box3 p {
   padding-top: 1rem;
-}
-
-.funding-card-box3 p a {
-  text-decoration: none;
-  font-size: 13px;
-  color: rgb(22, 21, 21);
 }
 
 .funding-card-box3 p a span {
@@ -413,31 +433,10 @@ a h5 {
   justify-content: space-evenly;
 }
 
-.social-icons li a {
-  display: block;
-  margin-right: 8px;
-  margin-bottom: 24px;
-  border: 2px solid #333;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-}
-
 .list-items {
   display: flex;
   margin: 0 auto;
   justify-content: space-evenly;
-}
-
-.list-items li a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 300;
-}
-
-li a img {
-  margin: 7px 3px;
 }
 
 .footer2 {
