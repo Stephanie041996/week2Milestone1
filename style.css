@@ -267,7 +267,8 @@ a h4 {
 }
 
 .small {
-  background: linear-gradient(rgba(34, 23, 23, 0.45), rgba(34, 23, 23, 0.45)),
+  background:
+    linear-gradient(rgba(34, 23, 23, 0.45), rgba(34, 23, 23, 0.45)),
     url(./img/highlights-article-2.webp);
   background-size: cover;
   margin: 5px;
