@@ -17,6 +17,7 @@
   border-bottom: 8px solid #e5e5e5;
   text-align: center;
 }
+
 .button {
   border-right: 1px solid white;
   width: 20%;
@@ -158,11 +159,13 @@ ul li ul li {
   color: grey;
   font-size: 18px;
 }
+
 .nav4 {
   padding-top: 10px;
   background-color: yellow;
   height: 35px;
 }
+
 .nav4 a {
   text-decoration: none;
   color: black;
@@ -173,14 +176,17 @@ ul li ul li {
   flex-direction: row;
   margin: 5px;
 }
+
 .img-section p h1 a {
   color: white;
 }
+
 .small-col {
   display: flex;
   flex-direction: column;
   width: 30%;
 }
+
 .big {
   background-image: url(./img/highlights-article-1.jpg);
   background-size: cover;
@@ -192,9 +198,11 @@ ul li ul li {
   padding-bottom: 20px;
   align-content: flex-end;
 }
+
 .big h4 {
   padding-top: 100px;
 }
+
 .small {
   background: 
     /* top, transparent red, faked with gradient */ linear-gradient(
@@ -207,12 +215,14 @@ ul li ul li {
   margin: 5px;
   height: 180px;
 }
+
 .small2 {
   background-image: url(./img/highlights-article-3.webp);
   background-size: cover;
   margin: 5px;
   height: 180px;
 }
+
 .img-title1 {
   color: white;
   font-size: 50px;
@@ -221,6 +231,7 @@ ul li ul li {
 
   padding-left: 3px;
 }
+
 .img-title {
   color: white;
   font-size: 30px;
@@ -228,26 +239,32 @@ ul li ul li {
   padding-top: 50px;
   padding-left: 2px;
 }
+
 .big a {
   text-decoration: none;
   color: white;
 }
+
 .small a {
   text-decoration: none;
   color: white;
 }
+
 .small2 a {
   text-decoration: none;
   color: white;
 }
+
 .date {
   text-align: right;
   color: white;
   padding: 3px;
 }
+
 cite {
   color: white;
 }
+
 .checkbtn {
   display: none;
 }
@@ -382,7 +399,6 @@ a h5 {
 }
 
 /* Footer */
-
 .footer1 {
   background-color: rgb(19, 19, 19);
   display: flex;
@@ -452,14 +468,17 @@ li a img {
     margin: 0;
     padding: 0;
   }
+
   .img-section {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
+
   .small-col {
     width: 100%;
   }
+
   .big {
     width: 100%;
     height: 150px;
@@ -472,11 +491,13 @@ li a img {
     padding-top: 5px;
     padding-left: 2px;
   }
+
   .nav4 {
     padding-top: 1px;
     background-color: yellow;
     height: 20px;
   }
+
   .nav4 a {
     text-decoration: none;
     color: black;
@@ -486,12 +507,15 @@ li a img {
   .latest a {
     display: none;
   }
+
   .about a {
     display: none;
   }
+
   .dropdown a {
     display: none;
   }
+
   .nav2 {
     background-image: url(./img/tnw.svg);
     background-size: 50px;
@@ -512,6 +536,7 @@ li a img {
     flex-direction: column;
     width: 100%;
   }
+
   .title {
     width: 100%;
     text-align: left;
@@ -521,22 +546,27 @@ li a img {
     border-right-style: none;
   }
 
- .title p {
+  .title p {
     font-size: 15px;
   }
+
   .link a {
     display: none;
   }
+
   .view a {
     display: none;
   }
+
   .view {
     border-right-style: none;
   }
+
   .checkbtn {
     display: block;
     float: right;
   }
+
   .nav3 {
     display: block;
   }
