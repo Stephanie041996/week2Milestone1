@@ -328,6 +328,195 @@ width: 100%;
     float:right;
   }
     
+.latest-funding {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+}
 
+.funding-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0.5rem;
+}
+
+.funding-heading h3 {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ .funding-nav ul {
+     display: flex;
+     justify-content: space-evenly;
+     color: red;
+     font-size: 15px;
+ }
+
+.funding-nav ul .border {
+    border-right: 1px solid red;
+    margin-right: 1rem;
+    padding-right: 1rem;
+}
+
+.main-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 0 0.5rem;
+}
+
+.card-position {
+    position: relative;
+}
+
+.symbol {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 40px;
+}
+
+a.card-link {
+    text-decoration: none;
+}
+
+a h4 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+    line-height: 2.5rem;
+}
+
+div.money {
+    background-color: rgb(254,235,231);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h4.money-title {
+    color: black;
+    background-color: rgb(254,235,231);
+}
+
+a h5 {
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    font-size: 11px;
+}
+
+.funding-card-box2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255,250,248);
+}
+
+.icon {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.icon img {
+    margin-right: 1rem;
+}
+
+.icon p a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(22, 21, 21);
+}
+
+.img-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.funding-card-box3 {
+    border-top: 1px solid red;
+    margin-bottom: 3rem;
+    background-color: rgb(255,250,248);
+    height: 6rem;
 
 }
+ 
+.funding-card-box3 p {
+    padding-top: 1rem;
+}
+
+.funding-card-box3 p a {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(22, 21, 21);
+}
+
+.funding-card-box3 p a span {
+    color: #a9b2bb;
+}
+
+/* Footer */
+
+.footer1 {
+    background-color: rgb(19,19,19);
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    height: 10rem;
+    margin: 0 auto;
+}
+
+.social-icons {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.social-icons li a {
+    display: block;
+    margin-right: 8px;
+    margin-bottom: 24px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.list-items {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.list-items li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+li a img {
+    margin: 7px 3px;
+}
+
+.footer2 {
+    display: block;
+    background-color: #000;
+    color: #a7abaf;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 35px;
+}
+
+.TNW-logo {
+    width: 40px;
+}
+
+.stockpath-logo {
+    width: 65px;
+}
+
