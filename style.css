@@ -179,7 +179,7 @@ ul li ul li {
   color: black;
 }
 
- /* First section with row and two columns*/
+/* First section with row and two columns*/
 .img-section {
   display: flex;
   flex-direction: row;
@@ -187,20 +187,20 @@ ul li ul li {
 }
 
 .big a {
-    text-decoration: none;
-    color: white;
-  }
+  text-decoration: none;
+  color: white;
+}
 
-  .small a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .small2 a {
-    text-decoration: none;
-    color: white;
-  }
-  
+.small a {
+  text-decoration: none;
+  color: white;
+}
+
+.small2 a {
+  text-decoration: none;
+  color: white;
+}
+
 .img-section p h1 a {
   color: white;
 }
@@ -228,10 +228,8 @@ ul li ul li {
 }
 
 .small {
-  background: linear-gradient(
-      rgba(34, 23, 23, 0.45),
-      rgba(34, 23, 23, 0.45)
-    ),url(./img/highlights-article-2.webp);
+  background: linear-gradient(rgba(34, 23, 23, 0.45), rgba(34, 23, 23, 0.45)),
+    url(./img/highlights-article-2.webp);
   background-size: cover;
   margin: 5px;
   height: 180px;
