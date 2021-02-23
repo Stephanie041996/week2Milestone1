@@ -17,14 +17,14 @@
     border-bottom: 8px solid #e5e5e5;
     text-align: center;
   }
-  .button {
+  .button-1 {
     border-right: 1px solid white;
     width: 20%;
     margin: 0 auto;
     height: 100%;
   }
   
-  .button input {
+  .button-1 input {
     padding: 8px;
     color: white;
     background-color: transparent;
