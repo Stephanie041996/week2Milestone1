@@ -172,3 +172,69 @@ padding-top: 20px;
     column-count: black;
 }
 
+/* Footer */
+
+.footer1 {
+    background-color: rgb(19,19,19);
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    height: 10rem;
+    margin: 0 auto;
+}
+
+.social-icons {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.social-icons li a {
+    display: block;
+    margin-right: 8px;
+    margin-bottom: 24px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.list-items {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.list-items li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+li a img {
+    margin: 7px 3px;
+}
+
+.footer2 {
+    display: block;
+    background-color: #000;
+    color: #a7abaf;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 35px;
+}
+
+.TNW-logo {
+    width: 40px;
+}
+
+.stockpath-logo {
+    width: 65px;
+}
+
+
+
