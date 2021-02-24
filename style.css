@@ -262,7 +262,7 @@ ul li ul:hover {
 .big {
   overflow: hidden;
   background: black;
-  background: 
+  background:
     -webkit-linear-gradient(rgba(139, 3, 3, 0.8), rgba(8, 4, 6, 0.8)),
     url(./img/highlights-article-1.jpg);
   background-size: cover;
@@ -298,7 +298,7 @@ a h4 {
 }
 
 .small2 {
-  background: 
+  background:
     linear-gradient(rgba(34, 23, 23, 0.45), rgba(34, 23, 23, 0.45)),
     url(./img/highlights-article-3.webp);
   background-size: cover;
