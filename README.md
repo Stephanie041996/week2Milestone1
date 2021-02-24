@@ -30,7 +30,27 @@ Twitter: [@GorgiMitev](https://twitter.com/GorgiMitev)
 LinkedIn: [gorgi-mitev](https://www.linkedin.com/in/gorgi-mitev-a350311b8/)
 👤 Author Gorgi Mitev
 
+## How to Download and copy the project
+###Steps by download
 
+1- go on the git reposotory and on the right click code
+2- click download ZIP
+3 go to download and work on local index and css download
+
+###steps By cloning
+1-Now Click on either Git Bash or Git CMD to open the command line shell.
+
+2-Navigate to a convenient location and then type
+
+git clone https://github.com/xanthium-enterprises/Cross-Platform-RS485-Programming-CSharp
+
+to clone the C# RS485 Programming Repository to your PC.
+
+Please replace the URL address with the address of the Repo you want to clone.
+
+This will create a local copy of the repository for you to work with.
+
+Please note that Git Bash is case sensitive.
 
 ## 🤝 Contributing
 
