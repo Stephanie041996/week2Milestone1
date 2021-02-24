@@ -10,14 +10,17 @@
   --grey: rgb(128, 128, 128);
   --red: rgb(250, 7, 7);
 }
+
 .flex {
   display: flex;
 }
+
 header {
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
 }
+
 .nav1 {
   flex-direction: row;
   justify-content: space-around;
@@ -259,7 +262,8 @@ ul li ul:hover {
 .big {
   overflow: hidden;
   background: black;
-  background: -webkit-linear-gradient(rgba(139, 3, 3, 0.8), rgba(8, 4, 6, 0.8)),
+  background:
+    -webkit-linear-gradient(rgba(139, 3, 3, 0.8), rgba(8, 4, 6, 0.8)),
     url(./img/highlights-article-1.jpg);
   background-size: cover;
   margin: 5px;
@@ -294,7 +298,8 @@ a h4 {
 }
 
 .small2 {
-  background: linear-gradient(rgba(34, 23, 23, 0.45), rgba(34, 23, 23, 0.45)),
+  background:
+    linear-gradient(rgba(34, 23, 23, 0.45), rgba(34, 23, 23, 0.45)),
     url(./img/highlights-article-3.webp);
   background-size: cover;
   margin: 5px;
@@ -606,9 +611,11 @@ li a img {
     margin: 0;
     padding: 0;
   }
+
   .funding-card1 {
     display: none;
   }
+
   .img-section {
     display: flex;
     flex-direction: column;
