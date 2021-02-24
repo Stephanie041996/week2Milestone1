@@ -1,1 +1,5 @@
 node_modules/
+.hintrc
+.styleintrc.json
+.styleintrc.js
+.package-lock.json
