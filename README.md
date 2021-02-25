@@ -31,13 +31,16 @@ LinkedIn: [gorgi-mitev](https://www.linkedin.com/in/gorgi-mitev-a350311b8/)
 👤 Author Gorgi Mitev
 
 ## How to Download and copy the project
-###Steps by download
+
+###Steps to download
 
 1- go on the git reposotory and on the right click code
 2- click download ZIP
 3 go to download and work on local index and css download
 
 ###steps By cloning
+
+
 1-Now Click on either Git Bash or Git CMD to open the command line shell.
 
 2-Navigate to a convenient location and then type
